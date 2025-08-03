@@ -20,16 +20,22 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginBottom: 20,
   },
-  micButtonContainer: {
+  micButtonWrapper: {
     alignItems: 'center',
-    marginTop: 20,
-    marginBottom: 20,
+    justifyContent: 'center',
+    marginVertical: 20,
   },
   micButton: {
     backgroundColor: '#333',
     padding: 16,
     borderRadius: 50,
     elevation: 3,
+  },
+  micButtonActive: {
+    backgroundColor: '#444',
+  },
+  micButtonDisabled: {
+    opacity: 0.5,
   },
   micIcon: {
     fontSize: 32,
